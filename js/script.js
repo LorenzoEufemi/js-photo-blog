@@ -39,6 +39,23 @@ const photos6 = () => { // funzione per creare 6 card con le 6 foto create dall'
 };
 
 
+// const addHoverListener = () => {
+//   const cardElem = document.querySelectorAll(".card");
+//   console.log(cardElem)
+//   cardElem.forEach(curCard => {
+//     curCard.addEventListener("hover", () => {
+//       curCard.style.transform = "rotate(20deg)";
+//       curCard.style.transform = "scale(1,1)";
+
+//     })
+
+//   })
+// }
+
+
+
+
+
 
 const addClickListener = () => { //funzione in cui prelevo ad ogni card la card-img 
   const cards = document.querySelectorAll(".card-img");
@@ -77,8 +94,6 @@ axios.get("https://jsonplaceholder.typicode.com/photos?_limit=6").then(resp => {
 
 
   addClickListener()//richiamo funzione
-
-
 });
 
 

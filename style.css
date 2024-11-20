@@ -46,7 +46,7 @@
   .img-over {
      width: 40%;
      z-index: 3;
-  };
+  }
  
   .btn-over {
      z-index: 3;
@@ -87,6 +87,13 @@
      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
  }
 
+ .card:hover {
+
+    transform: rotate(20deg);
+    /* transform: scale(1,1); */
+
+ }
+
  .card-text {
      padding: 0 20px 20px 20px;
      font-family: "Edu TAS Beginner", cursive;
@@ -112,34 +119,4 @@
 
  }
 
- .over {
-   height: 100vh;
-   width: 100%;
-   background-color: rgba(0,0,0,0.7);
-   z-index: 2;
-   position: fixed;
-   top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
- }
- .body {
-    position: relative;
-    display: none;
- }
-
- .img-over {
-    width: 40%;
-    z-index: 3;
- }
-
- .btn-over {
-    z-index: 3;
-    width: 100px;
-    background-color: dodgerblue;
-    color: white;
- }
+ 
